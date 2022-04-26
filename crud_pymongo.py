@@ -1,7 +1,6 @@
 from bson import ObjectId
 from pymongo import MongoClient, ReturnDocument
 from datetime import datetime
-import re
 
 client = MongoClient('localhost:27017')
 mydb = client['user_crud']
